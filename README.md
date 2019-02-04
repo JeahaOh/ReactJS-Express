@@ -14,12 +14,13 @@
     - Angular, React, Preact, Vue, Web 등의 Javascript Web Application을 만들 수 있는 온라인 에디터임.
     - 강의에서 사용할 코드는 아래 링크에서 Fork해서 사용할 수 있음.
     - https://codesandbox.io/s/4r6lqrlvj9
+
 - - -
-##VirtualDom
+##Virtual Dom
 ```
 We built React to solve one problem:
 building large applications with data that changes over time.
-우리는 지속해서 데이터가 변화하는 대규모 머플리케이션을 구축하기 위해 리액트를 만들었다.
+우리는 지속해서 데이터가 변화하는 대규모 어플리케이션을 구축하기 위해 리액트를 만들었다.
 ```
 가상의 돔.
 - 변화가 일어나면 브라우져에 새로운 돔을 만드는것이 아니라 자바스크립트로 이루어진 가상의 돔에 한번 랜더링을 한 후,
@@ -34,9 +35,11 @@ Ract.js는 User Interface를 위한 Javascript lib임.
 - 장점. 가볍다.
 - Angular.js(framework)와 함께 사용 할 수도 있다. 둘을 비교는 할 수 없다.
 - Virtual Dom을 사용함.
+- React는 Component라는 개념에 집중이 되 있는 라이브러리.
 
 - - -
 ##2019.01.30 
 - React.js와 Express framwork을 이용한 서비스를 만들어보자.
 - ReactJS의 전반적인 이해가 목표임.
 - 참고 : **https://www.inflearn.com/course/react-%EA%B0%95%EC%A2%8C-velopert/**
+**https://react-anyone.vlpt.us/**

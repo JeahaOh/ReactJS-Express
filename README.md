@@ -2,7 +2,12 @@
 
 - - -
 
-##React 프로젝트 시작하기.
+## 학습 방법.
+- 영상강의 1번 시청.
+- 영상강의 2번째 시청 후 정리.
+- 영상강의 3번째 시청하며 코드 따라 쳐보기.
+
+## React 프로젝트 시작하기.
 - Webpack
     - 특정 확장자마다 어떤 process를 하는것을 도와주는 lib.
     - 웹 프로젝트에서 전채적인 파일을 관리해주는 도구.
@@ -18,7 +23,7 @@
 
 - - -
 
-##Virtual Dom
+## Virtual Dom
 ```
 We built React to solve one problem:
 building large applications with data that changes over time.
@@ -33,7 +38,7 @@ building large applications with data that changes over time.
 
 - - -
 
-##React?
+## React?
 Ract.js는 User Interface를 위한 Javascript lib임.
 - 장점. 가볍다.
 - Angular.js(framework)와 함께 사용 할 수도 있다. 둘을 비교는 할 수 없다.

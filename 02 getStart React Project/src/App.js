@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-//  React Module을 불러와서 사용함.
+//  React 모듈을 불러와서 사용.
 
 class App extends Component {
-    //  Component를 만드는 방법중 하나
+  //  Component를 상속 받은 class.
   render() {
-      //    render() 메소드. jsx 형태의 
+    //  JSX를 리턴하는 메소드.
     return (
       <div>
         <h1>안녕하세요 리액트</h1>

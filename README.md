@@ -1,6 +1,7 @@
 # ReactJS-Express
 
 - - -
+
 ##React 프로젝트 시작하기.
 - Webpack
     - 특정 확장자마다 어떤 process를 하는것을 도와주는 lib.
@@ -16,6 +17,7 @@
     - https://codesandbox.io/s/4r6lqrlvj9
 
 - - -
+
 ##Virtual Dom
 ```
 We built React to solve one problem:
@@ -30,6 +32,7 @@ building large applications with data that changes over time.
     - https://youtu.be/BYbgopx44vo
 
 - - -
+
 ##React?
 Ract.js는 User Interface를 위한 Javascript lib임.
 - 장점. 가볍다.
@@ -38,8 +41,10 @@ Ract.js는 User Interface를 위한 Javascript lib임.
 - React는 Component라는 개념에 집중이 되 있는 라이브러리.
 
 - - -
+
 ##2019.01.30 
 - React.js와 Express framwork을 이용한 서비스를 만들어보자.
-- ReactJS의 전반적인 이해가 목표임.
-- 참고 : **https://www.inflearn.com/course/react-%EA%B0%95%EC%A2%8C-velopert/**
-**https://react-anyone.vlpt.us/**
+- ReactJS의 전반적, 기초적 이해가 목표임.
+- 참고 :
+    - **https://www.inflearn.com/course/react-%EA%B0%95%EC%A2%8C-velopert/**
+    - **https://react-anyone.vlpt.us/**

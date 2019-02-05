@@ -1,3 +1,75 @@
+##JSX 기본 문법 II.
+- CSS Style
+    - 문자열 형태가 아닌 객체 형태로 넣어줌.
+    - backgroundColor 와 같이 '-' 대신 camelCase를 사용한다.
+    ```
+    class App extends Component {
+        render() {
+            const style = {
+            backgroundColor: 'black',
+            padding: '16px',
+            color: 'white',
+            fontSize: '36px'
+            };
+
+            return <div style={style}>안녕하세요!</div>;
+        }
+    }
+    ```
+- Class
+    - class 대신 className을 사용함.
+        - 작동은 하지만, 올바른 문법을 따라 주는것이 좋다.
+    - App.css
+        ```
+        .App {
+            background: black;
+            color: aqua;
+            font-size: 36px;
+            padding: 1rem;
+            font-weight: 600;
+        }
+        ```
+    - App.js
+        ```
+        import React, { Component } from 'react';
+        import './App.css'
+
+        class App extends Component {
+            render() {
+                return (
+                <div className="App">
+                    리액트
+                </div>
+                );
+            }
+        }
+
+        export default App;
+        ```
+- 주석
+    - {/*   */}
+    - 태그 사이에 //
+    ```
+    import React, { Component } from 'react';
+
+    class App extends Component {
+        render() {
+            return (
+            <div>
+                {/* 주석은 이렇게 */}
+                <h1
+                // 태그 사이에
+                >리액트</h1>
+            </div>
+            );
+        }
+    }
+
+    export default App;
+    ```
+
+- - -
+
 ##JSX 기본 문법 I.
 - HTML 코드처럼 생겼지만 자바스크립트로 변환됨.
 - React Component를 작성할때 이용되는 문법임.

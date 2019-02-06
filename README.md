@@ -47,7 +47,7 @@ Ract.js는 User Interface를 위한 Javascript lib임.
 
 - - -
 
-##2019.01.30 
+## 2019.01.30 
 - React.js와 Express framwork을 이용한 서비스를 만들어보자.
 - ReactJS의 전반적, 기초적 이해가 목표임.
 - 참고 :

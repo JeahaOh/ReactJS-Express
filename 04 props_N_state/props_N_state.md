@@ -1,29 +1,30 @@
-## props와 state
+# props와 state
+
 - React Component에서 다루는 데이터는 props와 state로 나눌 수 있음.
 - props
-    - 부모 Component에서 자식 Component로 값을 넘겨주는 값.
-    - 자식 Component에서는 props를 받아 오기만 하고, 받아온 props는 직접 수정할 수 없음.
-    - 자신이 받아온 props값은 this. 키워드를 통해서 조회할 수 있음.
-    - defaultProps
-        - 특정 상황에 props를 일부러 비워 둬야 하는 경우 props의 기본값을 설정해둠.
-    - 함수형 Component
-        - 단순하게 props를 받아와서 보여주기만 하는 경우 간단하게 함수형태로 작성할 수 있음.
+  - 부모 Component에서 자식 Component로 값을 넘겨주는 값.
+  - 자식 Component에서는 props를 받아 오기만 하고, 받아온 props는 직접 수정할 수 없음.
+  - 자신이 받아온 props값은 this. 키워드를 통해서 조회할 수 있음.
+  - defaultProps
+    - 특정 상황에 props를 일부러 비워 둬야 하는 경우 props의 기본값을 설정해둠.
+  - 함수형 Component
+    - 단순하게 props를 받아와서 보여주기만 하는 경우 간단하게 함수형태로 작성할 수 있음.
 - state
-    - 내부에서 선언하며, 내부에서 값을 변경할 수 있음.
-    - 동적인 데이터를 다룰때 사용.
-    - Component읭 state를 정의할 때는 class fields 문법을 사용해서 정의함.
-        - constructor에 넣는 것보다 편함.
-        - constructor도 사용하고 class fields도 사용한다면,
-            - class field가 먼저 실행되고, constructor가 설정됨.
-        - 메소드 작성
-            - 화살표 함수 형태로 작성하면 this가 풀리는 것에 대해서 걱정할 필요가 없음.
-    - setState
-        - state에 있는 값을 바꾸기 위해서는 this.setState를 무조건 거쳐야 함.
-        - 리액트에서는 이 함수가 호출되면 컴포넌트가 리랜더링 되도록 설계 되어 있음.
-        - setState는 객체로 전달되는 값만 업데이트 해줌.
-    - setState에 객체 대신 함수 전달도 가능.
-    - 이벤트 설정.
-        - 리액트에서 이밴트 함수를 설정할 때 html과는 다음과 같은 사항들이 다름.
-        - 이벤트 이름을 설정할 때 camelCase로 설정해 주어야 함.
-            - onclick => onClick, onmousedown => onMouseDown 등.
-        - 이벤트에 전달해 주는 값은 함수여야 함.
+  - 내부에서 선언하며, 내부에서 값을 변경할 수 있음.
+  - 동적인 데이터를 다룰때 사용.
+  - Component읭 state를 정의할 때는 class fields 문법을 사용해서 정의함.
+    - constructor에 넣는 것보다 편함.
+    - constructor도 사용하고 class fields도 사용한다면,
+      - class field가 먼저 실행되고, constructor가 설정됨.
+    - 메소드 작성
+      - 화살표 함수 형태로 작성하면 this가 풀리는 것에 대해서 걱정할 필요가 없음.
+  - setState
+    - state에 있는 값을 바꾸기 위해서는 this.setState를 무조건 거쳐야 함.
+    - 리액트에서는 이 함수가 호출되면 컴포넌트가 리랜더링 되도록 설계 되어 있음.
+    - setState는 객체로 전달되는 값만 업데이트 해줌.
+  - setState에 객체 대신 함수 전달도 가능.
+  - 이벤트 설정.
+    - 리액트에서 이밴트 함수를 설정할 때 html과는 다음과 같은 사항들이 다름.
+    - 이벤트 이름을 설정할 때 camelCase로 설정해 주어야 함.
+      - onclick => onClick, onmousedown => onMouseDown 등.
+    - 이벤트에 전달해 주는 값은 함수여야 함.
